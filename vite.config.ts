@@ -18,7 +18,6 @@ export default defineConfig({
     outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
   },
-  base: process.env.GITHUB_PAGES === "true" ? "/akim-pro-landing-v2/" : "/",
   server: {
     port: 3000,
     strictPort: false,
