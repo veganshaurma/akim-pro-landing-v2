@@ -13,7 +13,7 @@ export function LocaleProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(() => {
     const stored = localStorage.getItem("locale");
     if (stored === "ru" || stored === "en") return stored;
-    return "en";
+    return "ru";
   });
 
   const setLocale = useCallback((newLocale: Locale) => {

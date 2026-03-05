@@ -1,5 +1,5 @@
 /**
- * Neofit AI — Landing page
+ * AKIM AI — Landing page
  * Sections: Hero · Not ChatGPT · Features · How It Works · Pricing · Audience · Trust · Disclaimer · Final CTA
  */
 import { useLocale } from "@/contexts/LocaleContext";
@@ -21,10 +21,9 @@ import {
   MessageSquare,
 } from "lucide-react";
 
-export const TELEGRAM_BOT_URL = "https://t.me/neofit_ai_bot";
+export const TELEGRAM_BOT_URL = "https://t.me/akim_pro_bot";
 
-const HERO_IMG =
-  "https://files.manuscdn.com/user_upload_by_module/session_file/310519663332980412/extRBTLqMYwoqhXL.jpg";
+const HERO_IMG = "/arseniy-hero.jpg";
 
 const TRUST_IMG = "/arseniy-trust.jpg";
 
@@ -178,7 +177,7 @@ export default function Home() {
                   className="p-4 text-xs font-semibold uppercase tracking-wide text-center"
                   style={{ color: "oklch(0.82 0.17 192)" }}
                 >
-                  Neofit AI
+                  AKIM AI
                 </div>
               </div>
 

@@ -46,7 +46,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <span className="text-xl font-bold font-[Outfit] tracking-tight gradient-text group-hover:opacity-80 transition-opacity">
-            Neofit AI
+            AKIM AI
           </span>
         </Link>
 

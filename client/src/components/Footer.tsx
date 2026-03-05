@@ -34,7 +34,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <h3 className="text-xl font-bold font-[Outfit] gradient-text mb-2">
-              Neofit AI
+              AKIM AI
             </h3>
             <p className="text-muted-foreground text-sm mb-4">
               {t.footer.description}
@@ -118,7 +118,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-border/20 text-center text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Forko Trade Limited. {t.footer.rights}
+          &copy; {new Date().getFullYear()} ООО «Торговые Технологии АС». {t.footer.rights}
         </div>
       </div>
     </footer>
